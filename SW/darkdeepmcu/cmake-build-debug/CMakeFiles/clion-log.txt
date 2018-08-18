@@ -1,0 +1,8 @@
+"C:\opt\JetBrains\CLion 2018.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\13567\Desktop\DarkDeepF030\SW\darkdeepmcu
+-- The C compiler identification is GNU 7.3.1
+-- The CXX compiler identification is GNU 7.3.1
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/opt/GNU Tools Arm Embedded/7 2018-q2-update/bin/arm-none-eabi-gcc.exe
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/13567/Desktop/DarkDeepF030/SW/darkdeepmcu/cmake-build-debug
