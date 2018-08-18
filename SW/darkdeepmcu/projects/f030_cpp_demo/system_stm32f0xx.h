@@ -58,7 +58,7 @@
 /**
   * @}
   */
-
+#include "stm32f030x6.h"
 
 /** @addtogroup STM32F0xx_System_Exported_types
   * @{

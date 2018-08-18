@@ -1,1 +1,0 @@
-C:\opt\GNUTOO~1\72018-~1\bin\AR10B2~1.EXE  -g   -Wl,-Map=C:/Users/13567/Desktop/DarkDeepF030/SW/darkdeepmcu/cmake-build-debug/f030_cpp_demo.map @CMakeFiles\f030_cpp_demo.elf.dir\objects1.rsp  -o f030_cpp_demo.elf 

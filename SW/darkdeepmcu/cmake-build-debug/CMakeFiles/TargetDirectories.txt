@@ -1,4 +1,0 @@
-C:/Users/13567/Desktop/DarkDeepF030/SW/darkdeepmcu/cmake-build-debug/CMakeFiles/f030_cpp_demo.elf.dir
-C:/Users/13567/Desktop/DarkDeepF030/SW/darkdeepmcu/cmake-build-debug/CMakeFiles/UPLOAD.dir
-C:/Users/13567/Desktop/DarkDeepF030/SW/darkdeepmcu/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/13567/Desktop/DarkDeepF030/SW/darkdeepmcu/cmake-build-debug/CMakeFiles/rebuild_cache.dir
