@@ -383,11 +383,6 @@
           <GroupName>src</GroupName>
           <Files>
             <File>
-              <FileName>Led.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\..\..\libmcu\F0\hal_cpp\Led.cpp</FilePath>
-            </File>
-            <File>
               <FileName>stm32f0xx_hal.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\libmcu\F0\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal.c</FilePath>
@@ -443,11 +438,6 @@
               <FilePath>..\system_stm32f0xx.c</FilePath>
             </File>
             <File>
-              <FileName>startup_stm32f030x6.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\startup_stm32f030x6.s</FilePath>
-            </File>
-            <File>
               <FileName>stm32f0xx_hal_flash_ex.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\libmcu\F0\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_flash_ex.c</FilePath>
@@ -456,6 +446,46 @@
               <FileName>stm32f0xx_it.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>..\stm32f0xx_it.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>keil_startup_stm32f030x6.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\keil_startup_stm32f030x6.s</FilePath>
+            </File>
+            <File>
+              <FileName>gpio.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\libmcu\F0\hal_cpp\gpio.h</FilePath>
+            </File>
+            <File>
+              <FileName>ssd1306.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\..\..\libmcu\F0\hal_cpp\ssd1306.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>font.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\..\..\libmcu\F0\hal_cpp\font.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>font.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\libmcu\F0\hal_cpp\font.h</FilePath>
+            </File>
+            <File>
+              <FileName>spi.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\libmcu\F0\hal_cpp\spi.h</FilePath>
+            </File>
+            <File>
+              <FileName>ssd1306.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\..\libmcu\F0\hal_cpp\ssd1306.h</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f0xx_hal_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\libmcu\F0\STM32F0xx_HAL_Driver\Src\stm32f0xx_hal_spi.c</FilePath>
             </File>
           </Files>
         </Group>

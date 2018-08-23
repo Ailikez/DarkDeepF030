@@ -1,18 +1,48 @@
-#include "Led.h"
+#include "gpio.h"
+#include <spi.h>
+#include <ssd1306.h>
 #include "stm32f0xx_hal.h"
 void SystemClock_Config(void);
 void _Error_Handler(char *file, int line);
 
+Gpio PA3('A', 3);//dc
+Gpio PA4('A', 4);//rst
+Gpio PA5('A', 5);//sck
+Gpio PA6('A', 6);//miso not used
+Gpio PA7('A', 7);//mosi
+Gpio& oled_cs = PA6;
+Spi::Spi_config_t oled_spi_config
+{
+    Spi::mode_0,
+    Spi::prescaler_4,
+    Spi::msb,
+    Spi::data_size_8bit,
+    0,
+    oled_cs
+};
+SpiDev_ssd1306_4wire oled(
+    SPI1,
+    PA5,
+    PA7,
+    PA6,
+    PA3,
+    PA4,
+    oled_spi_config);
 int main()
 {
     HAL_Init();
     SystemClock_Config();
-    Led_Gpio led_bsp(GPIOB, GPIO_PIN_1);
+    oled.init_ssd1306(false);//without cs and miso
+    oled.fill(SpiDev_ssd1306_4wire::Black);
+    oled.update();
+    HAL_Delay(500);
+    oled.fill(SpiDev_ssd1306_4wire::White);
+    oled.update();
+    HAL_Delay(500);
     for(;;)
     {
-        led_bsp.toggle();
-        led_bsp.get_state();
-        HAL_Delay(1000);
+        oled.test_border();
+        oled.test_fps();
     }
 }
 /**

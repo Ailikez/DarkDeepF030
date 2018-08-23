@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="CidrRootsConfiguration">
+    <excludeRoots>
+      <file path="$PROJECT_DIR$/libmcu/FatFs" />
+      <file path="$PROJECT_DIR$/libmcu/FreeRTOS" />
+      <file path="$PROJECT_DIR$/libmcu/STM32_USB_Device_Library" />
+      <file path="$PROJECT_DIR$/projects/f030_cpp_demo/Keil" />
+    </excludeRoots>
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+</project>
