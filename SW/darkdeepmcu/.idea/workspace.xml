@@ -8,29 +8,53 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=f0.cmake" GENERATION_DIR="build" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8976563a-c1ee-4d2e-82a1-e30c88cb5ab6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/libmcu/F0/hal_cpp/font.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libmcu/F0/hal_cpp/font.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libmcu/F0/hal_cpp/spi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libmcu/F0/hal_cpp/ssd1306.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libmcu/F0/hal_cpp/ssd1306.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libmcu/F0/hal_cpp/Led.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libmcu/F0/hal_cpp/Led.h" beforeDir="false" afterPath="$PROJECT_DIR$/libmcu/F0/hal_cpp/led.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libmcu/F0/hal_cpp/gpio.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libmcu/F0/hal_cpp/gpio.h" beforeDir="false" afterPath="$PROJECT_DIR$/libmcu/F0/hal_cpp/gpio.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/f030_cpp_demo/Keil/test.uvguix.13567" beforeDir="false" afterPath="$PROJECT_DIR$/projects/f030_cpp_demo/Keil/test.uvguix.13567" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/f030_cpp_demo/Keil/test.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/projects/f030_cpp_demo/Keil/test.uvoptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/f030_cpp_demo/Keil/test.uvprojx" beforeDir="false" afterPath="$PROJECT_DIR$/projects/f030_cpp_demo/Keil/test.uvprojx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/f030_cpp_demo/f030f4p6.ld" beforeDir="false" afterPath="$PROJECT_DIR$/projects/f030_cpp_demo/f030f4p6.ld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/f030_cpp_demo/mian.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/projects/f030_cpp_demo/mian.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/f030_cpp_demo/stm32f030x6.h" beforeDir="false" afterPath="$PROJECT_DIR$/projects/f030_cpp_demo/stm32f030x6.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/f030_cpp_demo/stm32f0xx_hal_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/projects/f030_cpp_demo/stm32f0xx_hal_conf.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeASMCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/47" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UPLOAD.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UPLOAD.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UPLOAD.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UPLOAD.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/f030_cpp_demo.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/f030_cpp_demo.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/f0.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/f0.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/f030f4p6.ld" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,27 +110,61 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1792649699">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cmake" value="1" />
+          <entry key="ld" value="1" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cmake" value="18" />
+          <entry key="ld" value="10" />
+          <entry key="txt" value="34" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="52" />
+          <entry key="PLAIN_TEXT" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.cidr.testingFrameworks.usages" />
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libmcu/F0/hal_cpp/ssd1306.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
+            <state relative-caret-position="-405">
               <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding>
                 <element signature="e#0#2#0" expanded="true" />
-                <element signature="e#105#121#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/libmcu/F0/hal_cpp/ssd1306.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1113">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="1226">
+              <caret line="280" column="25" selection-start-line="280" selection-start-column="25" selection-end-line="280" selection-end-column="25" />
               <folding>
                 <element signature="e#0#2#0" expanded="true" />
                 <element signature="e#40#60#0" expanded="true" />
@@ -115,7 +173,7 @@
                 <element signature="e#1846#1885#0" expanded="true" />
                 <element signature="e#1994#2032#0" expanded="true" />
                 <element signature="e#3818#4090#0" expanded="true" />
-                <element signature="e#7724#8520#0" expanded="true" />
+                <element signature="e#7721#8537#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,12 +182,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/f030_cpp_demo/mian.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-97">
-              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            <state relative-caret-position="609">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
-                <element signature="e#544#896#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1008">
+              <caret line="48" column="72" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/f0.cmake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
@@ -151,16 +226,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/libmcu/F0/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/libmcu/F0/cmsis/math/core_cm0.h" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/projects/f030_cpp_demo/system_stm32f0xx.h" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/libmcu/F0/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/projects/f030_cpp_demo/system_stm32f0xx.c" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/libmcu/F0/hal_cpp/ssd1306.h" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/libmcu/F0/hal_cpp/spi.h" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/projects/f030_cpp_demo/stm32f030x6.h" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/libmcu/F0/hal_cpp/gpio.h" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/libmcu/F0/hal_cpp/ssd1306.cpp" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/projects/f030_cpp_demo/mian.cpp" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/libmcu/F0/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/libmcu/F0/hal_cpp/spi.h" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/libmcu/F0/hal_cpp/gpio.h" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/projects/f030_cpp_demo/system_stm32f0xx.h" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/libmcu/F0/cmsis/math/core_cm0.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/projects/f030_cpp_demo/stm32f030x6.h" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/libmcu/F0/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -172,11 +248,13 @@
         <option value="$PROJECT_DIR$/libmcu/F0/hal_cpp/gpio.h" />
         <option value="$PROJECT_DIR$/libmcu/F0/hal_cpp/font.h" />
         <option value="$PROJECT_DIR$/libmcu/F0/hal_cpp/font.cpp" />
-        <option value="$PROJECT_DIR$/projects/f030_cpp_demo/f030f4p6.ld" />
         <option value="$PROJECT_DIR$/libmcu/F0/hal_cpp/spi.h" />
-        <option value="$PROJECT_DIR$/libmcu/F0/hal_cpp/ssd1306.cpp" />
         <option value="$PROJECT_DIR$/libmcu/F0/hal_cpp/ssd1306.h" />
         <option value="$PROJECT_DIR$/projects/f030_cpp_demo/mian.cpp" />
+        <option value="$PROJECT_DIR$/projects/f030_cpp_demo/f030f4p6.ld" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/f0.cmake" />
+        <option value="$PROJECT_DIR$/libmcu/F0/hal_cpp/ssd1306.cpp" />
       </list>
     </option>
   </component>
@@ -188,10 +266,10 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="438" />
-    <option name="y" value="-12" />
-    <option name="width" value="1038" />
-    <option name="height" value="1092" />
+    <option name="x" value="100" />
+    <option name="y" value="-11" />
+    <option name="width" value="1830" />
+    <option name="height" value="1103" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -199,6 +277,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,54 +285,18 @@
               <item name="f030_cpp_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="darkdeepmcu" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="f030_cpp_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="darkdeepmcu" type="462c0819:PsiDirectoryNode" />
-              <item name="libmcu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="f030_cpp_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="darkdeepmcu" type="462c0819:PsiDirectoryNode" />
-              <item name="libmcu" type="462c0819:PsiDirectoryNode" />
-              <item name="F0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="f030_cpp_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="darkdeepmcu" type="462c0819:PsiDirectoryNode" />
-              <item name="libmcu" type="462c0819:PsiDirectoryNode" />
-              <item name="F0" type="462c0819:PsiDirectoryNode" />
-              <item name="STM32F0xx_HAL_Driver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="f030_cpp_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="darkdeepmcu" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="f030_cpp_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="darkdeepmcu" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="f030_cpp_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="f030_cpp_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="darkdeepmcu" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="f030_cpp_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Keil" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -267,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.f030_cpp_demo.elf">
+  <component name="RunManager" selected="Application.Build All">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -303,17 +346,19 @@
       <workItem from="1534923010616" duration="25116000" />
       <workItem from="1534983124917" duration="5389000" />
       <workItem from="1534997106144" duration="1845000" />
+      <workItem from="1535159594741" duration="3630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42375000" />
+    <option name="totallyTimeSpent" value="46005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="-7" width="1220" height="735" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.20603448" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.2137931" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -325,9 +370,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32890365" />
-      <window_info anchor="bottom" id="CMake" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32890365" />
-      <window_info anchor="right" id="Structure" order="0" visible="true" weight="0.2551724" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32890365" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32392028" />
+      <window_info anchor="right" id="Structure" order="0" weight="0.46810344" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
@@ -484,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1130">
-          <caret line="70" column="55" lean-forward="true" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/f030_cpp_demo/startup_stm32f030x6.s">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3413" />
@@ -500,9 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
           <caret line="48" column="13" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -510,13 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/f030_cpp_demo/f030f4p6.ld">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -535,30 +563,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-97">
           <caret line="214" column="32" lean-forward="true" selection-start-line="214" selection-start-column="32" selection-end-line="214" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/f030_cpp_demo/f030f4p6.ld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libmcu/F0/hal_cpp/ssd1306.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding>
-            <element signature="e#97#123#0" expanded="true" />
-            <element signature="e#5955#6016#0" expanded="true" />
-            <element signature="e#6044#6105#0" expanded="true" />
-            <element signature="e#6748#6854#0" expanded="true" />
+            <element signature="e#0#2#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/f030_cpp_demo/mian.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        <state relative-caret-position="609">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
-            <element signature="e#544#896#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="48" column="72" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/f0.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libmcu/F0/hal_cpp/ssd1306.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1113">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="1226">
+          <caret line="280" column="25" selection-start-line="280" selection-start-column="25" selection-end-line="280" selection-end-column="25" />
           <folding>
             <element signature="e#0#2#0" expanded="true" />
             <element signature="e#40#60#0" expanded="true" />
@@ -567,18 +625,7 @@
             <element signature="e#1846#1885#0" expanded="true" />
             <element signature="e#1994#2032#0" expanded="true" />
             <element signature="e#3818#4090#0" expanded="true" />
-            <element signature="e#7724#8520#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libmcu/F0/hal_cpp/ssd1306.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#2#0" expanded="true" />
-            <element signature="e#105#121#0" expanded="true" />
+            <element signature="e#7721#8537#0" expanded="true" />
           </folding>
         </state>
       </provider>

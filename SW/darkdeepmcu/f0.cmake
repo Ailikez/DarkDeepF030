@@ -26,7 +26,7 @@ set(SIZE arm-none-eabi-size)
 #set(CMAKE_CXX_FLAGS_RELEASE "-Os -flto")
 
 # ld script
-set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/f030f4p6.ld)
+set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/projects/f030_cpp_demo/f030f4p6.ld)
 
 #Uncomment for hardware floating point
 #SET(FPU_FLAGS "-mfloat-abi=hard -mfpu=fpv4-sp-d16")
@@ -34,8 +34,10 @@ set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/f030f4p6.ld)
 
 #Uncomment for software floating point
 #SET(FPU_FLAGS "-mfloat-abi=soft")
-SET(COMMON_FLAGS "-mcpu=cortex-m0 ${FPU_FLAGS} -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs")
+SET(COMMON_FLAGS "-mcpu=cortex-m0 ${FPU_FLAGS} -Os -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs")
 
 SET(CMAKE_CXX_FLAGS_INIT "${COMMON_FLAGS} -std=c++11")
 SET(CMAKE_C_FLAGS_INIT "${COMMON_FLAGS} -std=gnu11")
 SET(CMAKE_EXE_LINKER_FLAGS_INIT "-Wl,-gc-sections -T ${LINKER_SCRIPT}")
+
+
